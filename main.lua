@@ -3,6 +3,7 @@ binser = require("libs.binser")
 sodapop = require("libs.sodapop")
 tween = require("libs.tween")
 gif = require("libs.gif.GifCat")
+require("libs.lovebug")
 
 function love.load(arg)
   if arg[#arg] == "-debug" then require("mobdebug").start() end
