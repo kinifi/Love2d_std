@@ -1,4 +1,8 @@
+This was created to make a standard, editable template for love 2d games with librarys that work
 
+
+IDE: 
+ - https://atom.io/packages/love-atom
 
 libs: 
 - binser - serialization
