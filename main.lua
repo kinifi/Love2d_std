@@ -4,7 +4,8 @@ sodapop = require("libs.sodapop")
 tween = require("libs.tween")
 gif = require("libs.gif.GifCat")
 require("libs.lovebug")
-
+suit = require("libs.suit")
+sti = require("libs.sti")
 
 -- loads everthing in the assets folder
 assets = require('libs.cargo').init('assets')
