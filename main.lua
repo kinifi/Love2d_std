@@ -14,17 +14,18 @@ local game = require("assets.scripts.game")
 
 -- use to call load on all other lua objects
 function love.load(arg)
-  game:load()
+  game.load()
 end
 
 -- use to call update on all other objects
 function love.update(dt)
-  game:update(dt)
+  -- print(dt)
+  game.update(dt)
 end
 
 -- use to call draw on all other objects
 function love.draw()
-  game:draw()
+  game.draw()
 end
 
 function love.quit()
