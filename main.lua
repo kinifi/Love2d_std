@@ -3,9 +3,13 @@ binser = require("libs.binser")
 sodapop = require("libs.sodapop")
 tween = require("libs.tween")
 gif = require("libs.gif.GifCat")
-require("libs.lovebug")
 suit = require("libs.suit")
 sti = require("libs.sti")
+
+-- the window based debugger
+-- require("libs.lovebug")
+-- the browser based debugger http://127.0.0.1:8000
+-- local lovebird = require("libs.lovebird")
 
 -- loads everthing in the assets folder
 assets = require('libs.cargo').init('assets')
@@ -21,6 +25,7 @@ end
 function love.update(dt)
   -- print(dt)
   game.update(dt)
+  -- lovebird.update()
 end
 
 -- use to call draw on all other objects
