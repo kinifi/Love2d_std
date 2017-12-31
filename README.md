@@ -7,7 +7,7 @@ This was created to make a standard, editable template for love 2d games with li
 - Root
 
   - assets: this is where all game assets, scripts, etc are
-    - 
+    - game.lua - the main script used during development
   - main.lua: the file that love2d calls into to load all libs. This also starts the camera object and calls game.lua
   - libs: the frameworks that are used by main.lua
   - conf.lua: the config file for your game when love2d starts up
